@@ -1,0 +1,5 @@
+SELECT id, name, phone from Account
+
+SELECT Id, name, project_name__c from Salesforce_Project__c
+
+SELECT Id, Name, Type, Industry FROM Account where industry = 'Energy' limit 1
