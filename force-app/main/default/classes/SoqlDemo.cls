@@ -63,6 +63,8 @@ public class SoqlDemo {
            system.debug('_______');
       }
     }
+
+    //soql process parenttochild
  
     public static void parentToChild_SOQL2() {
       list<salesforce_project__c> listSP = [select id, name, project_name__c,
@@ -91,4 +93,6 @@ public class SoqlDemo {
            system.debug('Project name is ' + eachSP.Project_Name__c + ', total tickets ' + totalTickets + ', hp tickets ' + highPriorityTickets);
       }
     }
+
+
  }
