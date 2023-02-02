@@ -63,6 +63,8 @@ public class SoqlDemo {
            system.debug('_______');
       }
     }
+
+    //soql islemi 
  
     public static void parentToChild_SOQL2() {
       list<salesforce_project__c> listSP = [select id, name, project_name__c,
@@ -92,5 +94,5 @@ public class SoqlDemo {
       }
     }
 
-    
+
  }
