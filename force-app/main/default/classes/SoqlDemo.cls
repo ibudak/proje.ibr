@@ -64,7 +64,7 @@ public class SoqlDemo {
       }
     }
 
-    //soql islemi 
+    //soql process
  
     public static void parentToChild_SOQL2() {
       list<salesforce_project__c> listSP = [select id, name, project_name__c,
