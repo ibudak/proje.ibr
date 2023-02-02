@@ -1,5 +1,7 @@
 public class Calculator {
 
+
+  ///parametry
     public void welcomeMessage(){
          system.debug('welcome to apex calc');
          printNewMessage('welcome welcome');
