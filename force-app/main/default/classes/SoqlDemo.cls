@@ -91,4 +91,6 @@ public class SoqlDemo {
            system.debug('Project name is ' + eachSP.Project_Name__c + ', total tickets ' + totalTickets + ', hp tickets ' + highPriorityTickets);
       }
     }
+
+    
  }
