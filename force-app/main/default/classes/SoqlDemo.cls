@@ -64,7 +64,7 @@ public class SoqlDemo {
       }
     }
 
-    //soql process
+    //soql process parent tochild
  
     public static void parentToChild_SOQL2() {
       list<salesforce_project__c> listSP = [select id, name, project_name__c,
